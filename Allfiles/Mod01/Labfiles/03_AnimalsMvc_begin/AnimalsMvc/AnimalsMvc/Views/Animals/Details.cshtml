@@ -1,4 +1,4 @@
-﻿@model AnimalsMvc.Models.IndexViewModel
+﻿@model AnimalsMvc.Models.Animal
 @{
     ViewData["Title"] = "Details";
 }
@@ -16,7 +16,7 @@
             @Html.DisplayFor(model => model.Name)
         </dd>
         <dt>
-            @Html.DisplayNameFor(model => model.Category)
+            @Html.DisplayNameFor(model =>model.Category)
         </dt>
         <dd>
             @Html.DisplayFor(model => model.Category)

@@ -10,7 +10,7 @@ namespace AnimalsMvc.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AnimalsController : ControllerBase
+    public class AnimalsController : Controller
     {
         private IData _tempData;
         public AnimalsController(IData tempData)
